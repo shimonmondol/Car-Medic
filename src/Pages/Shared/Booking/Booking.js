@@ -1,15 +1,17 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import { useLoaderData } from 'react-router-dom';
 
-const About = () => {
+const Booking = () => {
+    const {title} = useLoaderData();
     return (
         <div>
             <Header></Header>
-            <h1>This is About</h1>
+            <h2>{title}</h2>
             <Footer></Footer>
         </div>
     );
 };
 
-export default About;
+export default Booking;

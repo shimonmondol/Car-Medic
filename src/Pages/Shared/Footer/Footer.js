@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer p-10 bg-neutral text-neutral-content">
   <div>
     <img className='pr-1 w-3/4 h-5/6 ' src={logo} alt=''/>
-    <p className='pl-4'>Car Medic Industries Limited<br/>Providing reliable tech since 2002</p>
+    <p className='pl-4'>Car Medic Industries Limited<br/>Providing Reliable Tech Since 2002</p>
   </div> 
   <div>
     <span className="footer-title">Services</span> 
@@ -23,7 +23,7 @@ const Footer = () => {
     <a href = "/" className="link link-hover">Press kit</a>
   </div> 
   <div>
-    <span className="footer-title">Address</span> 
+    <span className="footer-title">Contact</span> 
     <a href = "/" className="link link-hover">Email : Shimonuap072@gmail.com</a> 
     <a href = "/" className="link link-hover">Phone : 017xxxxxxxx</a> 
     <span className="footer-title">Social</span> 

@@ -4,7 +4,7 @@ import router from './Router/Routes/Routes';
 
 function App() {
   return (
-    <div data-theme="synthwave" className='max-w-6xl mx-auto'>
+    <div data-theme="dracula">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

@@ -25,7 +25,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className='align-center'>
-                <h1 className='text-3xl text-center font-semibold pl-5 pb-2'> Click to Contact With Social Network</h1>
+                <h1 className='text-3xl font-semibold pl-6 pb-2'> Click to Contact With Social Network</h1>
                 <ul className='text-center pb-5'>
                     <li className='flex'>
                         <a href="https://www.facebook.com/"><img className='flex align-items-center justify-content-center pl-6 w-16 h-16' src={Facebook}  alt=''/></a>

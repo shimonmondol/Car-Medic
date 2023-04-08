@@ -2,11 +2,14 @@ import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import images1 from '../../../Images/images 1.jpg';
+import Banner from '../Banner/Banner';
+import Provide from './Provide';
 
 const Home = () => {
   return (
     <div>
       <Header></Header>
+      <Banner></Banner>
       <div className="hero">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img className='w-1/2' src={images1} alt=''/>
@@ -16,8 +19,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-      <Footer></Footer>
-    </div>
+
+        
+        <Provide></Provide>  
+        <Footer></Footer>
+        </div>
   );
 };
 

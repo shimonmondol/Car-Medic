@@ -8,7 +8,7 @@ const Provide = () => {
         
         <div>
             <h1 className='text-center text-3xl font-semibold pb-6'>Here We Provide</h1>
-            <div className='grid gap-12 grid-cols-2 md:grid-cols-2 
+            <div className='grid gap-1 grid-cols-1 md:grid-cols-2 
                             lg:grid-cols-3 pl-16 pb-16'>
                 <div className="card card-compact justify-end grid gap-2 w-80 shadow-2xl">
                     <figure className="px-10 pt-10">

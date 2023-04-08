@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Header></Header>
-      <div className="hero bg-base-200">
+      <div className="hero">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img className='w-1/2' src={images1} alt=''/>
             <div className='pl-10'>

@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import Facebook from '../../../Logo/Facebook.svg';
-import Twiter from '../../../Logo/twitter.svg';
-import Linkedin from '../../../Logo/linkedin.svg';
-import Instagram from '../../../Logo/square-instagram.svg';
+import Facebook from '../../../Images/Facebook.svg';
+import Twiter from '../../../Images/twitter.svg';
+import Linkedin from '../../../Images/linkedin.svg';
+import Instagram from '../../../Images/square-instagram.svg';
 
 const Contact = () => {
     return (
